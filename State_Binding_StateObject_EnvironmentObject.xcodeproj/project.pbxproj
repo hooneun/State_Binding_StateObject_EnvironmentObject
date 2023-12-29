@@ -13,6 +13,7 @@
 		07C6FFA72B3EF150001A2EB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C6FFA62B3EF150001A2EB5 /* Preview Assets.xcassets */; };
 		07C6FFAE2B3EF431001A2EB5 /* CountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C6FFAD2B3EF431001A2EB5 /* CountModel.swift */; };
 		07C6FFB02B3EF460001A2EB5 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C6FFAF2B3EF460001A2EB5 /* CounterView.swift */; };
+		07C6FFB22B3EF684001A2EB5 /* RandomNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C6FFB12B3EF684001A2EB5 /* RandomNumberView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		07C6FFA62B3EF150001A2EB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07C6FFAD2B3EF431001A2EB5 /* CountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountModel.swift; sourceTree = "<group>"; };
 		07C6FFAF2B3EF460001A2EB5 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		07C6FFB12B3EF684001A2EB5 /* RandomNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				07C6FFAD2B3EF431001A2EB5 /* CountModel.swift */,
 				07C6FFAF2B3EF460001A2EB5 /* CounterView.swift */,
+				07C6FFB12B3EF684001A2EB5 /* RandomNumberView.swift */,
 				07C6FF9F2B3EF14F001A2EB5 /* State_Binding_StateObject_EnvironmentObjectApp.swift */,
 				07C6FFA12B3EF14F001A2EB5 /* ContentView.swift */,
 				07C6FFA32B3EF150001A2EB5 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C6FFB22B3EF684001A2EB5 /* RandomNumberView.swift in Sources */,
 				07C6FFA22B3EF14F001A2EB5 /* ContentView.swift in Sources */,
 				07C6FFA02B3EF14F001A2EB5 /* State_Binding_StateObject_EnvironmentObjectApp.swift in Sources */,
 				07C6FFAE2B3EF431001A2EB5 /* CountModel.swift in Sources */,
