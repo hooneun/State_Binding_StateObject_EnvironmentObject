@@ -8,13 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isPlaying: Bool = false
+    
     var body: some View {
-        PlayButton()
+        VStack {
+            Text("Hello")
+                .foregroundStyle(isPlaying ? .primary : .secondary)
+            
+            PlayButton(isPlaying: $isPlaying)
+        }
     }
 }
 
 struct PlayButton: View {
-    @State private var isPlaying: Bool = false
+    @Binding var isPlaying: Bool
 
     var body: some View {
         Button(isPlaying ? "Pause" : "Play") {
